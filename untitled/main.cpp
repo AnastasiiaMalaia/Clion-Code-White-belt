@@ -1,52 +1,101 @@
 #include <iostream>
 #include <string>
 #include <map>
-#include <set>
 #include <algorithm>
 using namespace std;
 
 class Person {
 public:
-    set<int> all_years_NAME;
-    set<int> all_years_SURNAME;
+
     //изменения имени на first_name в год year
     void ChangeFirstName(int year, const string& first_name) {
-        all_years_NAME.insert(year);
         body[year].first = first_name;
     }
 
     //изменения фамилии на last_name в год year
     void ChangeLastName(int year, const string& last_name) {
-        all_years_SURNAME.insert(year);
-        body[year].first = last_name;
+        body[year].second = last_name;
     }
 
     string GetFullName(int year) {
+        string prev_first_name;
+        string prev_last_name;
+        string first_name;
+        string last_name;
+        for (const auto& man : body) {
+            if (man.first == year) {    // date with such year exists
+                if (!man.second.first.empty()) {
+                    first_name = man.second.first;
+                    if (!man.second.second.empty()) {
+                        first_name = man.second.second;
+                    }
+                    break;
+                }
+                if (!man.second.second.empty()) {
+                    first_name = man.second.second;
+                    if (!man.second.first.empty()) {
+                        first_name = man.second.first;
+                    }
+                    break;
+                }
+
+            } else if (man.first < year) {     // year key is less than the asking one
+                if (!man.second.first.empty()) {
+                    prev_first_name = man.second.first;
+                }
+                if (!man.second.second.empty()) {
+                    prev_last_name = man.second.second;
+                }
+            } else if (man.first > year) {
+                first_name = prev_first_name;
+                last_name = prev_last_name;
+                break;
+            }
+        }
 
 
+        if (first_name.empty() && prev_last_name.empty()
+        && last_name.empty() && prev_first_name.empty()) {
+            return "Incognito";
+        }
+
+        if (!first_name.empty() && !last_name.empty()) {
+            return first_name + " " + last_name;
+        }
 
 
-        if (body.count(year) == 0) { // no date with such year
-            if (all_years_NAME.count(all_years_NAME.size()) == 0 && all_years_SURNAME.count(all_years_SURNAME.size()) == 0) {
-                return "Incognito";
-            } else if (all_years_NAME.count(all_years_NAME.size()) == 0)
+        else if (first_name.empty()) {   // нет имени
+            if (prev_first_name.empty()) {   // нет предыдущее имени
+                if (last_name.empty()) {   // нет фамилии
+                    return prev_last_name + " with unknown first name";
+                }
+                return last_name + " with unknown first name";
+                } else if (last_name.empty()) {   // нет фамилии
+                    return prev_first_name + " " + prev_last_name;
+                }
+                return prev_first_name + " " + last_name;
+            }
 
-        } else if (body.at(year).second == "0" && body.at(year).first != "0") {
-            return (body.at(year).first + " with unknown last name");
-        } else if (body.at(year).second != "0" && body.at(year).first == "0") {
-            return body.at(year).second + " with unknown first name";
-        } else {
-            return body[year].first + body[year].second;
+
+        else if (last_name.empty()) {
+            if (prev_last_name.empty()) {
+                if (first_name.empty()) {
+                    return prev_first_name + " with unknown last name";
+                }
+                return first_name + " with unknown last name";
+            } else if (first_name.empty()) {
+                return prev_first_name + " " + prev_last_name;
+            }
+            return first_name + " " + prev_last_name;
         }
     }
-private:// приватные поля
+
+private:     // приватные поля
     struct inform {
         string first;
         string second;
     };
-    int k;
-    map <int, inform, greater<>> body;
-    map <int, inform, greater<>> ::iterator low;
+    map <int, inform> body;
 };
 
 
@@ -70,6 +119,19 @@ int main() {
     for (int year : {1969, 1970}) {
         cout << person.GetFullName(year) << endl;
     }
+
+    cout << "=============================================\n\n";
+    person.ChangeFirstName(1900, "Solnishko");
+    for (int year : {1941, 1965, 1967, 1969, 1970, 1990}) {
+        cout << person.GetFullName(year) << endl;
+    }
+
+    cout << "=============================================\n\n";
+    person.ChangeLastName(1900, "Lesnoe");
+    for (int year : {1941, 1965, 1967, 1969, 1970, 1990}) {
+        cout << person.GetFullName(year) << endl;
+    }
+
 
     return 0;
 }
