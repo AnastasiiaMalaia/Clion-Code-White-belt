@@ -18,6 +18,7 @@ public:
     }
 
     string GetFullName(int year) {
+        cout    <<
         string prev_first_name;
         string prev_last_name;
         string first_name;

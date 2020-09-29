@@ -8,82 +8,84 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/anastasiia_malaia/Documents/GitHub/Clion-Code-White-belt/untitled/cmake-build-debug"/>
+				<Option working_dir="/home/pavel/Nastya Code/Clion-Code-White-belt/untitled/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/anastasiia_malaia/Documents/GitHub/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anastasiia_malaia/Documents/GitHub/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anastasiia_malaia/Documents/GitHub/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anastasiia_malaia/Documents/GitHub/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pavel/Nastya\ Code/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pavel/Nastya\ Code/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pavel/Nastya\ Code/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pavel/Nastya\ Code/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/anastasiia_malaia/Documents/GitHub/Clion-Code-White-belt/untitled/cmake-build-debug"/>
+				<Option working_dir="/home/pavel/Nastya Code/Clion-Code-White-belt/untitled/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/anastasiia_malaia/Documents/GitHub/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anastasiia_malaia/Documents/GitHub/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anastasiia_malaia/Documents/GitHub/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anastasiia_malaia/Documents/GitHub/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pavel/Nastya\ Code/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pavel/Nastya\ Code/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pavel/Nastya\ Code/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pavel/Nastya\ Code/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/anastasiia_malaia/Documents/GitHub/Clion-Code-White-belt/untitled/cmake-build-debug"/>
+				<Option working_dir="/home/pavel/Nastya Code/Clion-Code-White-belt/untitled/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/anastasiia_malaia/Documents/GitHub/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anastasiia_malaia/Documents/GitHub/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anastasiia_malaia/Documents/GitHub/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anastasiia_malaia/Documents/GitHub/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pavel/Nastya\ Code/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pavel/Nastya\ Code/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pavel/Nastya\ Code/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pavel/Nastya\ Code/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="untitled">
-				<Option output="/Users/anastasiia_malaia/Documents/GitHub/Clion-Code-White-belt/untitled/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/anastasiia_malaia/Documents/GitHub/Clion-Code-White-belt/untitled/cmake-build-debug"/>
+				<Option output="/home/pavel/Nastya Code/Clion-Code-White-belt/untitled/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavel/Nastya Code/Clion-Code-White-belt/untitled/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/anastasiia_malaia/Documents/GitHub/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anastasiia_malaia/Documents/GitHub/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anastasiia_malaia/Documents/GitHub/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anastasiia_malaia/Documents/GitHub/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pavel/Nastya\ Code/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pavel/Nastya\ Code/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pavel/Nastya\ Code/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pavel/Nastya\ Code/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="untitled/fast">
-				<Option output="/Users/anastasiia_malaia/Documents/GitHub/Clion-Code-White-belt/untitled/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/anastasiia_malaia/Documents/GitHub/Clion-Code-White-belt/untitled/cmake-build-debug"/>
+				<Option output="/home/pavel/Nastya Code/Clion-Code-White-belt/untitled/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavel/Nastya Code/Clion-Code-White-belt/untitled/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/anastasiia_malaia/Documents/GitHub/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anastasiia_malaia/Documents/GitHub/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anastasiia_malaia/Documents/GitHub/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anastasiia_malaia/Documents/GitHub/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pavel/Nastya\ Code/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pavel/Nastya\ Code/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pavel/Nastya\ Code/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pavel/Nastya\ Code/Clion-Code-White-belt/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/anastasiia_malaia/Documents/GitHub/Clion-Code-White-belt/untitled/main.cpp">
+		<Unit filename="/home/pavel/Nastya Code/Clion-Code-White-belt/untitled/main.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/anastasiia_malaia/Documents/GitHub/Clion-Code-White-belt/untitled/CMakeLists.txt">
+		<Unit filename="/home/pavel/Nastya Code/Clion-Code-White-belt/untitled/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
